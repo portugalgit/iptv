@@ -1,0 +1,13 @@
+# RECOLHA DE LOGS - STB (INTEK/REALTEK)
+------------------------------------------
+1. cmd /plataform-tools ou c:\Program Files (x86)\plataform-tools> cd "C:\Program (x86)"
+2. c:\Program Files (x86)\plataform-tools>cd plataform-tools
+3. C:\plataform-tools> adb.exe connect 192.168.2.1:5555 ou adb.exe connect 192.168.2.51
+4. C:\plataform-tools> adb.exe logcat
+5. C:\plataform-tools> adb.exe logcat > 20240212.log
+8. C:\plataform-tools>adb devices
+9. C:\plataform-tools> adb shell
+10. C:\plataform-tools>adb pull /sdcard/Download/hdmi20240213-frequencia-manual.txt
+11. /vendor/bin/rtk_hdmi_test -u > /sdcard/Download/hdmi2024019287-frequencia-manual.txt
+
+OBS: BAIXAR E INSTALAR 
